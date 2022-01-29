@@ -1,0 +1,38 @@
+@import url("/style.css");
+
+.ct-round {
+  object-fit: cover;
+  border-radius: 50%;
+}
+.ct-s-square {
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.ct-m-square {
+  border-radius: 10px;
+  object-fit: cover;
+}
+.ct-sm {
+  width: 32px;
+  height: 32px;
+}
+.ct-md {
+  width: 40px;
+  height: 40px;
+}
+.ct-lg {
+  width: 64px;
+  height: 64px;
+}
+.ct-xlg {
+  width: 96px;
+  height: 96px;
+}
+.ct-fail-avatar {
+  background-color: var(--primary);
+  /* border-radius: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
