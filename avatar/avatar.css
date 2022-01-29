@@ -1,0 +1,49 @@
+:root {
+  /* color theme of lib  */
+  --heading: #222831;
+  --text: #393e46;
+  --primary: #00adb5;
+  --body: #f7f7f7;
+  --red-500: #ef4444;
+}
+
+.ct-avatar {
+  object-fit: cover;
+  border-radius: 50%;
+}
+.ct-sm {
+  width: 40px;
+  height: 40px;
+}
+.ct-md {
+  width: 50px;
+  height: 50px;
+}
+.ct-lg {
+  width: 65px;
+  height: 65px;
+}
+.ct-xlg {
+  width: 80px;
+  height: 80px;
+}
+
+.ct-fail-avatar {
+  background-color: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ct-avatar-badge {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 8px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background-color: var(--red-500);
+}
