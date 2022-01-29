@@ -7,7 +7,7 @@
 
   /* Default color VIBGYOR */
 
-  --violet-300: #c4b5fd;
+  --violet-300: #d8cffc;
   --violet-500: #8b5cf6;
   --violet-700: #6d28d9;
 
@@ -15,24 +15,24 @@
   --indigo-500: #6366f1;
   --indigo-700: #4338ca;
 
-  --blue-300: #93c5fd;
-  --blue-500: #3b82f6;
+  --blue-300: #bee3f8;
+  --blue-500: #3182ce;
   --blue-700: #1d4ed8;
 
-  --green-300: #86efac;
-  --green-500: #22c55e;
+  --green-300: #c6f6d5;
+  --green-500: #38a169;
   --green-700: #15803d;
 
   --yellow-300: #fde047;
   --yellow-500: #eab308;
   --yellow-700: #a16207;
 
-  --orange-300: #fdba74;
-  --orange-500: #f97316;
+  --orange-300: #feebc8;
+  --orange-500: #dd6b20;
   --orange-700: #c2410c;
 
-  --red-300: #fca5a5;
-  --red-500: #ef4444;
+  --red-300: #fed7d7;
+  --red-500: #e53e3e;
   --red-700: #b91c1c;
 }
 * {
@@ -44,9 +44,9 @@ html {
   font-family: sans-serif;
 }
 .ct-component {
-  width: 60%;
+  width: 40vw;
   border-bottom: 1px solid black;
-  padding: 2rem;
+  /* padding: 2rem; */
   display: flex;
   justify-content: space-evenly;
 }
