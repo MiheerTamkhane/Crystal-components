@@ -50,7 +50,6 @@ html {
 .ct-component {
   width: 60vw;
   border-bottom: 1px solid black;
-  /* padding: 2rem; */
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
