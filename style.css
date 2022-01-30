@@ -6,6 +6,10 @@
   --body: #f7f7f7;
 
   /* Default color VIBGYOR */
+  --gray-300: #d1d5db;
+  --gray-500: #6b7280;
+  --gray-700: #374151;
+  --gray-900: #1f2937;
 
   --violet-300: #d8cffc;
   --violet-500: #8b5cf6;
@@ -17,7 +21,7 @@
 
   --blue-300: #bee3f8;
   --blue-500: #3182ce;
-  --blue-700: #1d4ed8;
+  --blue-700: #0b5fbe;
 
   --green-300: #c6f6d5;
   --green-500: #38a169;
@@ -44,9 +48,10 @@ html {
   font-family: sans-serif;
 }
 .ct-component {
-  width: 40vw;
+  width: 60vw;
   border-bottom: 1px solid black;
   /* padding: 2rem; */
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
