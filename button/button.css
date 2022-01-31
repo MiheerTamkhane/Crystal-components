@@ -4,7 +4,7 @@
   border: none;
   padding: 0.5rem 1.2rem;
   cursor: pointer;
-  background: #fff;
+  background: var(--body);
   border-radius: 3px;
 }
 

@@ -1,0 +1,96 @@
+@import url("/style.css");
+
+/* card body styles */
+/*------------ responsive img imp ------------*/
+body {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.ct-card-img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ct-basic-card {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 18rem;
+  min-width: 18rem;
+  max-height: 30rem;
+  text-decoration: none;
+  background: var(--body);
+  color: var(--text);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+  transition: all 250ms ease;
+}
+
+.ct-basic-card:hover {
+  box-shadow: 0 10px 1rem rgba(0, 0, 0, 0.2);
+}
+.ct-card-badge-div {
+  position: relative;
+}
+.ct-card-badge {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+}
+.ct-card-wish {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  color: var(--red-500);
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.ct-product-stats {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+.ct-product-info {
+  margin: 1rem 0rem;
+  letter-spacing: 0.05em;
+}
+
+.ct-card-btns {
+  border-top: 1px solid var(--text);
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Horizontal card styles  */
+.ct-horizontal-card {
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  max-height: 18rem;
+  max-width: 30rem;
+  min-width: 30rem;
+  text-decoration: none;
+  background: var(--body);
+  color: var(--text);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+  transition: all 250ms ease;
+}
+.ct-horizontal-card:hover {
+  box-shadow: 0 10px 1rem rgba(0, 0, 0, 0.2);
+}
+.ct-card-close {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  color: var(--text);
+}
+.wishlist-btn {
+  color: var(--red-500);
+}
+.share-btn {
+  color: var(--gray-500);
+}
