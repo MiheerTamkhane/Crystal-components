@@ -51,7 +51,7 @@ body {
 
 .ct-product-stats {
   padding: 0.5rem;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0;
 }
 .ct-product-info {
   margin: 1rem 0rem;
