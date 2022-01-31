@@ -51,25 +51,25 @@
 
     <h2>Types of Input</h2>
     <div class="ct-component">
-      <div class="ct-checkbox">
-        <input type="checkbox" checked id="checkbox1" />
+      <div class="ct-checkbox-div">
+        <input type="checkbox" checked id="checkbox1" class="ct-checkbox" />
         <label for="checkbox1">Checked</label>
       </div>
-      <div class="ct-checkbox">
-        <input type="checkbox" id="checkbox2" />
+      <div class="ct-checkbox-div">
+        <input type="checkbox" id="checkbox2" class="ct-checkbox" disabled />
         <label for="checkbox2">Checkbox</label>
       </div>
-      <div class="ct-radio">
-        <input type="radio" name="radio" id="radio1" />
+      <div class="ct-radio-div">
+        <input type="radio" name="radio" id="radio1" class="ct-radio" />
         <label for="radio1">Male</label>
       </div>
-      <div class="ct-radio">
-        <input type="radio" name="radio" id="radio2" />
+      <div class="ct-radio-div">
+        <input type="radio" class="ct-radio" name="radio" id="radio2" />
         <label for="radio2">Female</label>
       </div>
     </div>
     <h2>Form</h2>
-    <form action="post" class="ct-form">
+    <form class="ct-form">
       <h2>Sign up</h2>
       <div class="ct-input-div">
         <input
@@ -77,39 +77,54 @@
           name="ct-input"
           class="ct-input"
           placeholder="Enter name..."
+          required
         />
       </div>
       <div class="ct-input-error">
         <input
-          type="text"
+          type="email"
           class="ct-error-icon"
           name="input"
           placeholder="Email..."
+          required
         />
         <span class="material-icons">warning_amber</span>
       </div>
       <div class="ct-input-check">
         <input
-          type="text"
+          type="tel"
           class="ct-check-icon"
           name="input"
           placeholder="Phone No..."
+          required
         />
         <span class="material-icons">done</span>
       </div>
-      <div class="ct-checkbox">
-        <input type="checkbox" id="checkbox3" />
+      <div class="ct-checkbox-div">
+        <input type="checkbox" id="checkbox3" required class="ct-checkbox" />
         <label for="checkbox3">Privacy</label>
       </div>
-      <div class="ct-radio">
-        <input type="radio" name="radio" id="radio3" />
+      <div class="ct-radio-div">
+        <input
+          type="radio"
+          name="radio"
+          id="radio3"
+          required
+          class="ct-radio"
+        />
         <label for="radio3">Male</label>
       </div>
-      <div class="ct-radio">
-        <input type="radio" name="radio" id="radio4" />
+      <div class="ct-radio-div">
+        <input
+          type="radio"
+          name="radio"
+          id="radio4"
+          required
+          class="ct-radio"
+        />
         <label for="radio4">Female</label>
       </div>
-      <button class="ct-form-btn">SUBMIT</button>
+      <button class="ct-form-btn" type="submit">SUBMIT</button>
     </form>
   </body>
 </html>

@@ -60,6 +60,10 @@
   outline: none;
 }
 
+.ct-checkbox[type="checkbox"],
+.ct-radio[type="radio"] {
+  accent-color: var(--green-500);
+}
 .ct-form {
   margin: 1rem;
   padding: 1rem;
