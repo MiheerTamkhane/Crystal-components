@@ -104,3 +104,25 @@ body {
 .share-btn {
   color: var(--gray-500);
 }
+
+/* Card with only text */
+
+.text-card {
+  padding: 1.2rem;
+}
+.text-card-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.text-container h2 {
+  margin-bottom: 0.5rem;
+}
+.text-container p {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding-top: 0.5rem;
+}
+.text-container hr {
+  color: rgba(0, 0, 0, 0.15);
+}
