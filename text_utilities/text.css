@@ -1,0 +1,8 @@
+@import url("/style.css");
+
+.ct-text-gray {
+  color: var(--gray-500);
+}
+.ct-text-center {
+  text-align: center;
+}
