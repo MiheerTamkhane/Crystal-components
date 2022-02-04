@@ -9,10 +9,6 @@
   object-fit: cover;
 }
 
-.ct-m-square {
-  border-radius: 10px;
-  object-fit: cover;
-}
 .ct-sm {
   width: 32px;
   height: 32px;
@@ -31,7 +27,6 @@
 }
 .ct-fail-avatar {
   background-color: var(--primary);
-  /* border-radius: 50%; */
   display: flex;
   align-items: center;
   justify-content: center;

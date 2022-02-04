@@ -1,5 +1,8 @@
 @import url("/style.css");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+input.ct-input {
+  background: var(--body);
+}
 .ct-input-div {
   display: flex;
   flex-direction: column;
@@ -7,15 +10,7 @@
 .ct-input {
   padding: 0.6rem;
   border: 1px solid var(--blue-500);
-  /* outline-color: var(--blue-500); */
   outline: none;
-}
-.ct-filled {
-  padding: 0.6rem;
-  /* border: 1px solid var(--blue-500); */
-  border: none;
-  outline-color: var(--blue-500);
-  background: var(--blue-300);
 }
 
 .ct-base-bd {
@@ -35,35 +30,39 @@
   align-items: center;
   justify-content: space-between;
   border: 1px solid var(--red-500);
-  padding: 0.4rem 0.6rem;
   color: var(--red-500);
 }
-
-.ct-input-error .ct-error-icon {
-  border: none;
-  outline: none;
-}
-
 .ct-input-check {
-  /* Temoporary margin below make sure to remove in main lib.  */
-  /* margin-top: 0.5rem; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   border: 1px solid var(--green-500);
-  padding: 0.4rem 0.6rem;
   color: var(--green-500);
 }
 
-.ct-input-check .ct-check-icon {
+.ct-input-error .ct-error-icon {
+  flex: 1;
+  padding: 0.6rem;
   border: none;
   outline: none;
+}
+.ct-input-check .ct-check-icon {
+  flex: 1;
+  padding: 0.6rem;
+  border: none;
+  outline: none;
+}
+.ct-input-error span,
+.ct-input-check span {
+  margin: 0 0.5rem;
 }
 
 .ct-checkbox[type="checkbox"],
 .ct-radio[type="radio"] {
   accent-color: var(--green-500);
 }
+
+/* form styles  */
 .ct-form {
   margin: 1rem;
   padding: 1rem;
@@ -72,7 +71,7 @@
   color: var(--text);
 }
 .ct-form > * {
-  margin: 0.6rem 0rem;
+  margin: 0.8rem 0rem;
 }
 
 .ct-form-btn {
