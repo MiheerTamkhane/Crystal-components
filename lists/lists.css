@@ -1,0 +1,18 @@
+@import url("/style.css");
+
+.ct-ul-list {
+  color: var(--text);
+}
+.ct-icon-list {
+  list-style-type: none;
+}
+.ct-icon-list span {
+  font-size: 1rem;
+  color: var(--green-500);
+}
+.ct-icon-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
