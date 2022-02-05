@@ -56,3 +56,6 @@ html {
   flex-wrap: wrap;
   padding: 1rem;
 }
+.ct-components-list {
+  padding-left: 2rem;
+}
