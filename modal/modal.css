@@ -1,17 +1,11 @@
 @import url("/style.css");
 @import url("/button/button.css");
 
-/* main {
-  padding: 2rem;
-  border: 1px solid black;
-} */
-
 .ct-modal {
   padding: 0 1rem;
   border: 1px solid var(--gray-500);
   max-width: 350px;
   max-height: 100%;
-  cursor: pointer;
   border-radius: 5px;
 }
 
@@ -22,6 +16,9 @@
   flex-wrap: wrap;
   padding: 1rem 0;
   border-bottom: 1px solid var(--gray-300);
+}
+.modal-close {
+  cursor: pointer;
 }
 
 .ct-modal-body {
@@ -50,8 +47,10 @@
   transition: all 250ms ease-in;
 }
 .ct-modal-active {
-  top: 2rem;
+  top: 30px;
+  transition: all 250ms ease-out;
 }
+
 .ct-modal-dialog {
   display: none;
   width: 100%;
