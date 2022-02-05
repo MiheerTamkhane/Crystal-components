@@ -1,16 +1,15 @@
 @import url("/style.css");
-
 .ct-img-sm {
-  width: 124px;
-  height: 124px;
+  width: 96px;
+  height: 96px;
 }
 .ct-img-md {
-  width: 192px;
-  height: 192px;
+  width: 128px;
+  height: 128px;
 }
 .ct-img-lg {
-  width: 260px;
-  height: 260px;
+  width: 192px;
+  height: 192px;
 }
 .ct-img-round {
   border-radius: 50%;
