@@ -3,6 +3,12 @@
 .ct-text-gray {
   color: var(--gray-500);
 }
+.ct-text-start {
+  text-align: start;
+}
 .ct-text-center {
   text-align: center;
+}
+.ct-text-end {
+  text-align: end;
 }
