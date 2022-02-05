@@ -1,0 +1,40 @@
+@import url("/style.css");
+@import url("/button/button.css");
+@import url("/input/input.css");
+@import url("/badge/badge.css");
+
+header {
+  /* min-height: 100px; */
+  background-color: #eeeeee;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+  width: 90%;
+  margin: 0 auto;
+}
+nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray-500);
+  cursor: pointer;
+}
+.ct-right-nav {
+  display: flex;
+}
+.ct-nav-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ct-nav-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ct-nav-signin {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.nav-searchbar {
+  margin-right: 2rem;
+}
