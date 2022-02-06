@@ -27,7 +27,7 @@
   gap: 3rem;
 }
 .ct-toast-undo .ct-undo {
-  color: var(--orange-500);
+  color: var(--body);
   font-weight: 900;
   border: none;
   background-color: transparent;

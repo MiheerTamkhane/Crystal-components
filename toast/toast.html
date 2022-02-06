@@ -17,8 +17,10 @@
     <h1>Simple toast with Button</h1>
     <div class="ct-component">
       <div class="ct-toast-undo">
-        <p>Your draft has been discarded.</p>
-        <button class="ct-undo">UNDO</button>
+        <p>Your draft has been archived.</p>
+        <button class="ct-undo">
+          <span class="material-icons">unarchive</span>
+        </button>
       </div>
     </div>
     <h1>Toast in action</h1>
@@ -26,7 +28,9 @@
       <button class="ct-btn ct-blue" id="ct-toast-btn">Show Toast</button>
       <div class="ct-toast-undo ct-toast-action">
         <p>Message has been sent to your Ex.</p>
-        <button id="ct-undo" class="ct-undo">UNDO</button>
+        <a id="ct-undo" class="ct-undo">
+          <span class="material-icons">close</span>
+        </a>
       </div>
     </div>
     <script src="./toast.js"></script>
