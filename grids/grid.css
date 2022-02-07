@@ -1,0 +1,28 @@
+@import url("/style.css");
+
+.ct-grid {
+  display: grid;
+  /* width: 80vh; */
+  gap: 1rem;
+}
+.ct-grid-2 {
+  grid-template-columns: 1fr 1fr;
+}
+.ct-grid-3 {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.ct-child {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ct-child-1 {
+  background-color: var(--blue-500);
+}
+.ct-child-2 {
+  background-color: var(--green-500);
+}
+.ct-child-3 {
+  background-color: var(--orange-500);
+}
