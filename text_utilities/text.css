@@ -12,3 +12,22 @@
 .ct-text-end {
   text-align: end;
 }
+
+.ct-h1 {
+  font-size: 2.5rem;
+}
+.ct-h2 {
+  font-size: 2.25rem;
+}
+.ct-h3 {
+  font-size: 2rem;
+}
+.ct-h4 {
+  font-size: 1.75rem;
+}
+.ct-h5 {
+  font-size: 1.5rem;
+}
+.ct-h6 {
+  font-size: 1.25rem;
+}
