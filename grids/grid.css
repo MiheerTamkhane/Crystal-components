@@ -16,6 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--text);
 }
 .ct-child-1 {
   background-color: var(--blue-500);
