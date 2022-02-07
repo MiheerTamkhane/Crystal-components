@@ -7,6 +7,7 @@
   --body: #f7f7f7;
 
   /* Default color VIBGYOR */
+  --gray-100: #ffffff;
   --gray-300: #d1d5db;
   --gray-500: #6b7280;
   --gray-700: #374151;
